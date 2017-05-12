@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Build your first Browser Extension</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An activity for building your VR experience">
+    <meta name="author" content="Mozilla Campus Clubs">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Google Tag Manager -->
+    <script type="text/javascript" src="assets/plugins/dnt-helper.js"></script>
+    <script type="text/javascript" src="assets/js/gtm.js"></script>
+
+</head>
+
+<body>
+    <!-- ******HEADER****** -->
+    <header class="header">
+        <div class="container">
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Build your first Browser Extension</h1>
+                <h2 class="desc">Second meeting - Prototype your idea</h2>
+            </div><!--//profile-->
+        </div><!--//container-->
+    </header><!--//header-->
+
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">Introduction</h2>
+                        <div class="content">
+                          <p>Add-ons provide a safe, simple, and powerful way to personalize your browsing experience. Now, it’s easier than ever to create add-ons for Firefox with WebExtensions APIs. This Web-based technology framework offers a powerful way to create browser extensions that can be easily ported to Chrome, Opera, and Edge, and you only need to know HTML, JavaScript and CSS to build them.</p>
+                          <p>In this activity you will learn about what makes browser extensions great and how to build a simple add-on using WebExtensions APIs.  This activity will also prepare you for your next meeting in which you will start diving more into <b>Building your First browser add-on</b>.</p> </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Getting ready</h2>
+                        <div class="content">
+
+                            <div class="item featured text-center">
+                                <div class="featured-image">
+                                    <img class="img-responsive project-image" src="assets/images/vr.jpg" alt="project name" />
+                                    </a>
+                                <div class="desc text-left">
+
+                                    <h4 class="title">Share a slide presentation</h4>
+                                    <p>Use the following slide deck as is, or customize it to make it your own. Going through this will teach you everything you need to lead this activity with your club.</p>
+                                    <p>After you customize the slidedeck use it during your Club's meeting for introducing your members into prototyping their idea.</p>
+                                    <a class="btn btn-cta-secondary fork" href="https://docs.google.com/presentation/d/1qySrYEOtLvs7Cuum1TuH7Mud-5M-Bqtli1lqSrJmA7s/edit#slide=id.p" target="_blank">Prototyping ideas slidedeck</a>
+
+                                </div><!--//desc-->
+                            </div><!--//item-->
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Plan - 5'</h2>
+                        <div class="content">
+                            <div class="item">
+                                <p>In your last meeting your group identified an idea for building a browser add-on and submitted on GitHub. </p>
+                                <p>Now it's time to start to flesh out what your addon's product experience would look like. Ask the following questions:</p>
+                                <ul>
+                                  <li>What interactions would the user need to have, where does your product end and real life begin?</li>
+                                  <li>What are the questions you have, the assumptions you are making in this? </li>
+                                </ul>
+                                <p>A paper prototype can be great to shape an idea but can also be a great way to test these early questions about how to design a solution. Think about what your goal is for your prototype before you start creating it. Select one scenario that can aide you in this goal and a few key tasks to focus on developing further.</p>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Create - 35'</h2>
+                        <div class="content">
+                            <div class="item">
+                                <p>Use the paper and pen to draw out each interaction screen for the tasks/scenario you have chosen. Not every screen has to be redone, If small things change, use cut outs to be able to move small changes in place. Continue to walk through your prototype until it makes sense to you and your team. And then go test it with users. You can either present your paper prototype as is or you can make it easier to share by incorporating it with links in programs like <a href="https://www.invisionapp.com/" target="_blank">invision</a> or <a href="https://popapp.in/" target="_blank">pop.</a></p>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Share and Test your prototype - 10'</h2>
+                        <div class="content">
+                            <div class="item">
+                                <p>Congratulations! You are now ready to reap the benefits of prototyping earlier.</p>
+                                <p>You can use your new prototype to test your solution with real users and gain buy-in and understanding by sharing with the relevant stakeholders.</p>
+                                <ol>
+                                  <li>Spend two minutes to make pair of groups</li>
+                                  <li>Each group has 5’ to present its idea, gather feedback and test their prototype with the other group</li>
+                                </ol>
+                                <p>Review the feedback you received from the other teams and update/adjust your prototypes if necessary.</p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                              <!-- Place this tag where you want the button to render. -->
+                              <a class="btn btn-cta-secondary fork" href="https://github.com/mozillacampusclubs/teach-how-to-build-addons/issues/new">Submit your idea on GitHub</a>
+                            </div><!--//item-->
+                            <p>Are you ready to take the next step and build your extension? Ask your Club Captain whenthe next meeting will be.</p>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Update your proposal - 10'</h2>
+                        <div class="content">
+                            <div class="item">
+                                <p>As final step we invite you to upload all of your digital resources (photos, files) into your idea submission on GitHub.</p>
+                                <p>That way all of your fellow Open Source Clubs and experts will be able to track your progress and see the amazing work you are doing!</p>
+                                <p>You are now ready to take the next step and start Building your browser add-on! Ask your Club Captain when the next meeting will be.</p>
+                                <a class="btn btn-cta-secondary fork" href="https://github.com/mozillacampusclubs/teach-how-to-build-addons/issues/">Update your idea on GitHub</a>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+
+              <aside class="testimonials aside section">
+                  <div class="section-inner">
+                      <h2 class="heading">What you will learn</h2>
+                      <div class="content">
+                          <div class="item">
+                              <blockquote class="quote">
+                                  <p><i class="fa fa-quote-left"></i>By going through this activity you will learn everything around browser extensions. You will also learn how to work into groups for generatings and synthesize ideas which you will turn into browser add-ons in the next meeting/activity</p>
+                              </blockquote>
+                              <p class="source"><span class="name">Alexandros Dorodoulis</span><br /><span class="title">Undergrad Computer Science Student</span></p>
+                          </div><!--//item-->
+
+                      </div><!--//content-->
+                  </div><!--//section-inner-->
+              </aside><!--//section-->
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills </h2>
+                        <div class="content">
+                            <p class="intro">
+                              Skills and time required for running this activity
+                            <div class="skillset">
+
+                                <div class="item">
+                                    <h3 class="level-title">HTML<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" >Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="10%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Javascript <span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="10%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h3 class="level-title">Time<span class="level-label">1 hour</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="10%">
+                                        </div>
+                                    </div><!--//level-bar-->
+                                </div><!--//item-->
+
+                                <div class="item">
+                                    <h2 class="heading">Requirements & Resources</h2>
+                                    <ul>
+                                    <li><a href="https://docs.google.com/presentation/d/1C0YbS15YO_JbH8dY_4nhPZWTtJOPe2Fx8GRyZjPCAgs/edit#slide=id.p">Facilitators slidedeck</a></li>
+                                    <li>A projector</li>
+                                    <li>Laptops (1 per group)</li>
+                                    <li>Your favorite text editor</li>
+                                    <li>Access to the internet</li>
+                                    </ul>
+                                </div><!--//item-->
+                            </div>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+
+            </div><!--//secondary-->
+        </div><!--//row-->
+    </div><!--//masonry-->
+
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="campus.mozilla.community" target="_blank">Mozilla Campus Clubs</a> for all University Students</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
